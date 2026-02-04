@@ -1,13 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
+##### MD FAHIM HOSSAIN | Data analyst
 
-# # CC7182 Programming for Analytics Spring Semester 2024-2025
-# 
-# 
-
-# ##### MD FAHIM HOSSAIN | Data analyst
-
-# ## Quetion - 1.1. Produce a meta data table to show characteristics of each attribute.
+### Quetion - 1.1. Produce a meta data table to show characteristics of each attribute.
 
 # Data Load & import essential packages
 
