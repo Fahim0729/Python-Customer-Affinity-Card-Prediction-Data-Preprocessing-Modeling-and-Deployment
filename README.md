@@ -62,3 +62,10 @@ ________________________________________
 •	Keep the first 100 customer records from the processed campaign data for testing and use the remaining records to build a logistic regression model using the top 10 relevant independent variables. Identify the intercept and coefficients for each independent variable.
 •	Test the accuracy of the model using the first 100 customer records and explain the results with appropriate graphs.
 •	Implement a predictive application based on the logistic regression model. The application should include a suitable user interface that allows users to input customer records via keyboard or file upload and receive predicted outputs.
+
+<div align="center">
+  
+**[⬆ Back to Top](#top)**
+
+</div>
+
