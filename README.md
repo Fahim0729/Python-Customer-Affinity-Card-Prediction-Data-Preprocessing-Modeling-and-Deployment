@@ -253,7 +253,7 @@ The following figures illustrate the interfaces of the workflow:
   - Histogram plotting 📊  
   - Logistic regression model & testing 🏗🧪  
   - Predictive application 💻
-  - - Processed dataset with new **binary and ordinal variables**, **sentiment column**, and **logistic regression results** ✅
+  - Processed dataset with new **binary and ordinal variables**, **sentiment column**, and **logistic regression results** ✅
 
 
 <div align="center">
