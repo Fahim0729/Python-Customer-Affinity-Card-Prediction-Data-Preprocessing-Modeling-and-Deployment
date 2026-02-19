@@ -127,7 +127,7 @@ All datasets are in **CSV format** with the following attributes:
 - Test the model on the **first 100 records**.  
 - Explain results with **appropriate graphs** 📈 and performance metrics.  
 
-![Performance](https://github.com/Fahim0729/Python-Customer-Affinity-Card-Prediction-Data-Preprocessing-Modeling-and-Deployment/blob/8132a48f2b991e585dd9c8d27993f56ee2c22ad9/Performance.png)
+![Performance](https://github.com/Fahim0729/Python-Customer-Affinity-Card-Prediction-Data-Preprocessing-Modeling-and-Deployment/blob/a8a90c5f86988bf0ea9056647d2e273c523833a5/Performance_Mat.png)
 
 **5.3 💻 Predictive Application**  
 - Implement an application using the **logistic regression model**.  
