@@ -233,7 +233,7 @@ The following figures illustrate the interfaces of the workflow:
   <em>Figure-5.3.3: interface for upload csv file</em>
 </p>
 
-**🛠 Key functions implemented**: __init__, show_model_summary, create_widgets, manual_entry, predict, display_prediction
+**🛠 Key functions implemented**: _init_, show_model_summary, create_widgets, manual_entry, predict, display_prediction
 
 
 
