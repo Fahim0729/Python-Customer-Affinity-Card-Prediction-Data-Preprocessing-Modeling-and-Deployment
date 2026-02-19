@@ -66,7 +66,8 @@ A portion of the metadata table, showing a few representative attributes, is pre
 ### 2. Data Preparation
 
 **2.1 🧹 Remove Irrelevant Variables**  
-- Write Python programs to remove variables with no inference to the target.  
+- Write Python programs to remove variables with no inference to the target.
+
 🟩 The data has 19 columns where CUST-ID is the unique identification for each customer. Thus, CUST-ID has been removed as it is not useful for inferring target variable. 
 
 **2.2 🧼 Data Cleaning**  
@@ -94,26 +95,31 @@ After cleaning, the dataset contains **1312** valid rows, with **188** rows remo
 - Write Python programs for the following conversions:  
 
   - **2.3 👤 CUST_GENDER → binary:** F = 0, M = 1
-    🟩  The CUST_GENDER column was converted into a binary variable using a **mapping** approach to simplify analysis:F → 0, M → 1
+
+    🟩  The CUST_GENDER column was converted into a binary variable using a **mapping** approach to simplify analysis: F → 0, M → 1
     
   - **2.4 🌎 COUNTRY_NAME → ordinal numbers** based on frequency (descending order)
+
     🟩  The COUNTRY_NAME column was converted into ordinal numbers based on frequency. Countries that appear more frequently were assigned lower ordinal numbers,           and less frequent countries were assigned higher numbers. This was done using a **mapping** approach with descending order of frequency                            **(ascending=False)**.
     
   - **2.5 💵 CUST_INCOME_LEVEL → ordinal levels:**  
     - 1 = Low income  
     - 2 = Middle income  
     - 3 = High income
-     🟩 The CUST_INCOME_LEVEL column was converted into ordinal levels using a **mapping** approach:
+
+    🟩 The CUST_INCOME_LEVEL column was converted into ordinal levels using a **mapping** approach:
           - 1 = Low Income → “Below 30,000” and “30,000–49,999”
           - 2 = Middle Income → “50,000–129,999”
           - 3 = High Income → “130,000 and above”
       This mapping reduces the number of categories while preserving the ordinal relationship of income, making the variable suitable for statistical and machine        learning analyses.
       
   - **2.6 🎓 EDUCATION → ordinal numbers** based on USA education levels (ascending order)
-     🟩 The EDUCATION column was converted into ordinal numbers based on the U.S. education system using a **mapping** approach. Each educational level was assigned a          numeric value reflecting its order in the education hierarchy (**ascending** order), from preschool to PhD
+
+    🟩 The EDUCATION column was converted into ordinal numbers based on the U.S. education system using a **mapping** approach. Each educational level was assigned a          numeric value reflecting its order in the education hierarchy (**ascending** order), from preschool to PhD
     
   - **2.7 💼 OCCUPATION → one-hot encoding** (binary columns for each occupation)
-     🟩 The OCCUPATION column was converted using one-hot encoding, creating binary columns for each occupation. This was implemented using **get_dummies**, which          transforms each categorical value into a separate column with 0/1 indicators.
+
+    🟩 The OCCUPATION column was converted using one-hot encoding, creating binary columns for each occupation. This was implemented using **get_dummies**, which          transforms each categorical value into a separate column with 0/1 indicators.
 
 
 ### 3. Data Analysis
@@ -210,7 +216,7 @@ The model achieved 79% accuracy, correctly predicting 65 non-purchases (true neg
 
 🟩 A predictive application was developed based on the logistic regression model, featuring a user-friendly interface for real-time predictions of affinity card purchases (Figure-5.3.1). Users can enter customer data manually or upload a CSV file.
 
-When entering data manually, the levels of the top 10 independent variables are displayed for selection. After selecting values and clicking ‘Predict’, the predicted outcome is shown (Figure-5.3.2). 
+When entering data manually, the levels of the top 10 independent variables are displayed for selection. After selecting the input values and clicking the ‘Predict’ button, the predicted outcome is displaye (Figure-5.3.2). 
 Alternatively, users can upload a CSV file, as illustrated in Figure-5.3.3.
 
 The following figures illustrate the interfaces of the workflow:
