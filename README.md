@@ -6,7 +6,7 @@ The dataset contains **1,500 customer records**, each consisting of **19 variabl
   - `1 = High-value`  
   - `0 = Low-value`
 
-All datasets are in **CSV format** with the following attributes:
+The dataset are in **CSV format** with the following attributes:
 
 1. 🆔 CUST_ID  
 2. 👤 CUST_GENDER  
