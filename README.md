@@ -88,9 +88,9 @@ The proposed suggestions for handling missing values and error values are presen
   <em>Figure: Suggestions for handling missing and error values</em>
 </p>
 
-After cleaning, the dataset contains 1312 valid rows, with 188 rows removed due to errors or missing values.
+After cleaning, the dataset contains **1312** valid rows, with **188** rows removed due to errors or missing values.
 
-** 🔄 Variable Conversion**  
+**🔄 Variable Conversion**  
 - Write Python programs for the following conversions:  
 
   - **2.3 👤 CUST_GENDER → binary:** F = 0, M = 1
@@ -233,7 +233,9 @@ The following figures illustrate the interfaces of the workflow:
   <em>Figure-5.3.3: interface for upload csv file</em>
 </p>
 
-🛠 Key functions implemented: __init__, show_model_summary, create_widgets, manual_entry, predict, display_prediction
+**🛠 Key functions implemented**: __init__, show_model_summary, create_widgets, manual_entry, predict, display_prediction
+
+
 
 
 ### 📎 Deliverables
