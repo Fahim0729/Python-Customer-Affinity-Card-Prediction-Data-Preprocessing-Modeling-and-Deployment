@@ -144,7 +144,7 @@ The number of comments classified under the SENTIMENT column and the levels (-1,
 ### 4. Data Exploration
 A Python program has been developed to display histograms of any processed variable, allowing users to select the variable at runtime. The program runs continuously, providing visual insights until the user chooses to exit.
 
-🟩 The Python program is developed to visualize the distribution of processed variables ('CUST_GENDER', 'CUST_MARITAL_STATUS', 'COUNTRY_NAME', 'CUST_INCOME_LEVEL', 'EDUCATION', 'OCCUPATION', and 'sentiment') using histograms. In this program, users are allowed to select any one variable at runtime, and its corresponding histogram will be displayed. The program is designed to run continuously in a loop until an explicit exit command is given by the user. This interactive functionality has been implemented to support exploratory data analysis (EDA), where the distribution, spread, and potential outliers of variables can be observed. Such visual analysis is considered essential for understanding the underlying structure of the data during preprocessing and model development stages. 
+🟩 The Python program has been developed to visualize the distribution of processed variables ('CUST_GENDER', 'CUST_MARITAL_STATUS', 'COUNTRY_NAME', 'CUST_INCOME_LEVEL', 'EDUCATION', 'OCCUPATION', and 'sentiment') using histograms. In this program, users are allowed to select any one variable at runtime, and its corresponding histogram will be displayed. The program is designed to run continuously in a loop until an explicit exit command is given by the user. This interactive functionality has been implemented to support exploratory data analysis (EDA), where the distribution, spread, and potential outliers of variables can be observed. Such visual analysis is considered essential for understanding the underlying structure of the data during preprocessing and model development stages. 
 The user is presented with the interface shown in the following figure, where they can enter a variable name or exit the program.
 
 <p align="center">
@@ -198,7 +198,7 @@ An application was implemented using the logistic regression model, featuring a 
 
 🟩 A predictive application was developed based on the logistic regression model, featuring a user-friendly interface for real-time predictions of affinity card purchases (Figure-5.3.1). Users can enter customer data manually or upload a CSV file.
 
-When entering data manually, the levels of the top 10 independent variables are displayed for selection. After selecting the input values and clicking the ‘Predict’ button, the predicted outcome is displaye (Figure-5.3.2). 
+When entering data manually, the levels of the top 10 independent variables are displayed for selection. After selecting the input values and clicking the ‘Predict’ button, the predicted outcome is displayed (Figure-5.3.2). 
 Alternatively, users can upload a CSV file, as illustrated in Figure-5.3.3.
 
 The following figures illustrate the interfaces of the workflow:
